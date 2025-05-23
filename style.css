@@ -18,6 +18,7 @@ body {
 }
 #container {
   display: flex;
+  max-width: 1280px;
 }
 aside {
   background-image: url("./pexels-cindy-bartillon-202386255-18014117.jpg");
@@ -58,6 +59,7 @@ aside {
 }
 main {
   min-width: 70%;
+  max-width: 600px;
 }
 main .cta {
   margin-top: 7rem;
