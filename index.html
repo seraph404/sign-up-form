@@ -7,26 +7,78 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <aside>
-      <div class="logo">
-        <img
-          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
-        />
-        <p>Odin</p>
-      </div>
-      <div class="credit">
-        <p>
-          Photo by
-          <a href="https://www.pexels.com/@cindy-bartillon-202386255/"
-            >Cindy Bartillon</a
-          >
-          on
-          <a href="https://www.pexels.com/photo/grasses-on-grassland-18014117/"
-            >Pexels</a
-          >
-        </p>
-      </div>
-    </aside>
-    <main></main>
+    <div id="container">
+      <aside>
+        <div class="logo">
+          <img
+            src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          />
+          <p>Odin</p>
+        </div>
+        <div class="credit">
+          <p>
+            Photo by
+            <a href="https://www.pexels.com/@cindy-bartillon-202386255/"
+              >Cindy Bartillon</a
+            >
+            on
+            <a
+              href="https://www.pexels.com/photo/grasses-on-grassland-18014117/"
+              >Pexels</a
+            >
+          </p>
+        </div>
+      </aside>
+      <main>
+        <div class="cta">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </p>
+          <br />
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="panel">
+          <div class="form-title">Let's do this!</div>
+          <form action="">
+            <div class="row">
+              <div class="form-group">
+                <label for="first-name">First name</label
+                ><input type="text" id="first-name" class="text" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last name</label
+                ><input type="text" id="last-name" class="text" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <label for="email">Email</label
+                ><input type="text" id="email" class="email" />
+              </div>
+              <div class="form-group">
+                <label for="phone-number">Phone number</label
+                ><input type="text" id="phone-number" class="tel" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group">
+                <label for="password">Password</label
+                ><input type="text" id="password" class="password" />
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Confirm password</label
+                ><input type="text" id="confirm-password" class="password" />
+              </div>
+            </div>
+            <button type="submit">Create Account</button>
+          </form>
+          <p class="have-account">
+            Already have an account? <a href="#">Log in</a>
+          </p>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
