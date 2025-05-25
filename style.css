@@ -86,6 +86,7 @@ form input {
   border: 1px solid #e5e7eb;
   height: 20px;
   border-radius: 5px;
+  padding: 5px;
 }
 input:invalid {
   border-color: red;
